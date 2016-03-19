@@ -6,15 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="css/accordion.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="js/modal.js"></script>
 </head>
+<body>
 <h1>will.schneller</h1>
 <div class="navbar">
   <ul class="navicons">
-    <li><a href="#"><i class="fa fa-twitter fa-2x "></i></a></li>
-    <li><a href="#"><i class="fa fa-codepen fa-2x "></i></a></li>
-    <li><a href="#"><i class="fa fa-github fa-2x "></i></a></li>
-    <li><a href="#"><i class="fa fa-dribbble fa-2x "></i></a></li>
+    <li><a href="#"><i class="fa fa-twitter fa-2x hvr-pop"></i></a></li>
+    <li><a href="#"><i class="fa fa-codepen fa-2x hvr-pop"></i></a></li>
+    <li><a href="#"><i class="fa fa-github fa-2x hvr-pop"></i></a></li>
+    <li><a href="#"><i class="fa fa-dribbble fa-2x hvr-pop"></i></a></li>
   </ul>
 </div>
 <div class="accordion">
@@ -30,22 +33,32 @@
     <li>
       <div>
         <a href="logos.html">
-          <h2>Logo Design</h2>
-          <p>Working those Adobe Illustrator skills</p>
+          <h2>Code Samples</h2>
+          <p>Here's what I can do</p>
         </a>
       </div>
     </li>
     <li>
       <div>
         <a href="resume.html">
-          <h2>Contact Me</h2>
-          <p>Would you like to work together? Here's how we get in touch</p>
+          <h2>Resume</h2>
+          <p>A little bit about me</p>
         </a>
       </div>
     </li>
     
   </ul>
+
+ 
 </div>
 
-
+ <div class="contactContainer">
+    <a href="#" class="modal"><img src="img/mail.png" class="emailIcon hvr-pop"></a>
+  </div>
+    <script>
+$(document).ready(function(){
+  $('.modal').ws_modal_box();
+});
+</script>
+</body>
 </html>

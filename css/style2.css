@@ -1,0 +1,45 @@
+.colpink {
+	background-color: #FB7F6B;
+	padding: 5% 0 35% 0;}
+
+.colpinkish {
+	background-color: #FA543A;
+	padding: 5% 0 35% 0;}
+
+.colred {
+	background-color: #E12406;
+	padding: 5% 0 35% 0;}
+
+.colblue {
+	background-color: #21DBF9;
+	padding: 5% 0 35% 0;}
+
+.colltblue {
+	background-color: #3ADFFA;
+	padding: 5% 0 35% 0;}
+
+.label {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	transition: all 0.5s ease;
+	background-color: white;
+	color: black;
+	font-size: initial;
+	padding: 5px 5px 5px 30px;}
+
+.label:hover {
+
+	padding: 15px 5px 15px 33%;
+			
+}
+
+.navbar {
+	margin-bottom: 0;
+	background-color: white;
+}
+
+.navbar-brand {
+	font-size: 2em;
+	font-family: 'Pacifico';
+}
