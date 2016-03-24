@@ -137,7 +137,11 @@ a:link:hover {
     width: 100%;
     -webkit-transition: none;
     transition: none;
+
+
   }
+.accordion ul li div a * {
+  opacity: 1;}
 
   .contactContainer {
   	width:100%;
@@ -376,8 +380,6 @@ fieldset {
 :-ms-input-placeholder {
  color:#888;
 }
-
-/*#closex {width: 100%;}*/
 
 /* Pop */
 @-webkit-keyframes hvr-pop {

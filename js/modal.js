@@ -10,7 +10,7 @@
 			height : "550",
 			width : "500",
 			title:"",
-			description: '<div class="container"><h1 style="font-size: 1.5em;">Shoot me a message!</h1><form id="contact" action="" method="post"><fieldset><input placeholder="Your name" type="text" tabindex="1" required autofocus></fieldset><fieldset><input placeholder="Your Email Address" type="email" tabindex="2" required></fieldset><fieldset><input placeholder="Your Phone Number" type="tel" tabindex="3" required></fieldset><fieldset><textarea placeholder="Type your Message Here...." tabindex="5" required></textarea></fieldset><fieldset><button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button></fieldset></form></div>',
+			description: '<div class="container"><h1 style="font-size: 1.5em;">Shoot me a message!</h1><form id="contact" action="formdata.php" method="post"><fieldset><input placeholder="Your name" type="text" tabindex="1" name="name" required autofocus></fieldset><fieldset><input placeholder="Your Email Address" type="email" name="email" tabindex="2" required></fieldset><fieldset><input placeholder="Your Phone Number" type="tel" name="phone" tabindex="3" required></fieldset><fieldset><textarea placeholder="Type your Message Here...." name="info" tabindex="5" required></textarea></fieldset><fieldset><button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button></fieldset></form></div>',
 			top: "5%",
 			left: "35%",
 		},prop);
